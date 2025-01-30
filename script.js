@@ -64,5 +64,33 @@ console.dir(document.body.firstChild);
 let div = document.querySelector("div").children;
  console.log(div);
 
+ let fruits = document.querySelector(".fruits");
+ console.dir(fruits);
 
+ let heading = document.querySelector("h1");
+ console.dir(heading);
+
+let pq = document.querySelector(".pq");
+console.dir(pq.innerText);
+
+pq.innerText = pq.innerText + "from Apna College students";
+
+
+let boxs = document.querySelectorAll(".qs2divs");
+console.log(boxs);
+
+let idx = 1;
+for (bom of boxs) {
+    console.log(bom);
+bom.innerText = `New unique value ${idx}`;
+idx++;
+}
+
+// boxs[0].innerText = "New unique value one";
+// boxs[1].innerText = "New unique value Tow";
+// boxs[2].innerText = "New unique value Three";
+
+
+
+                                // COMPLETE JS-CH6
 
